@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>formularz</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Informacje personalne:</legend>
+
+    <form>
+        <label for="login">Login: </label>
+        <br>
+        <input type="text" id="login" name="login">
+      </form>
+      <br>
+      <form>
+        <label for="password">Hasło:</label>
+        <br>
+        <input type="password" id="password" name="pasword">
+      </form>
+
+
+<form>
+ <h3>Płeć:</h3>
+<input type="radio" name="punkt_radio">
+<label for="punkt_radio">Mężczyzna</label>
+<br>
+<input type="radio" name="punkt_radio">
+<label for="punkt_radio">Kobieta</label>
+<br>
+<input type="radio" name="punkt_radio">
+<label for="punkt_radio">Inne</label>
+</form>
+<br>
+<br>
+        <br>
+            <label for="samochod">Wybierz samochód:</label>
+            <br>
+            <select name="samochod" size="3">
+                <option>BMW</option>
+                <option>Volvo</option>
+                <option>Fiat</option>
+               
+            </select>
+
+       
+
+        <br>
+        <br>
+
+
+      <form>
+        <label for="content"><b>Więcej informacji:</b></label>
+        <br>
+        <textarea rows="10" cols="30" id="content" name="content"></textarea>
+      </form>
+<h3>Podaj liczbę:</h3>
+
+<input type="number">
+<br>
+<br>
+<form>
+    <b>Wybierz opcję:</b>
+    <br>
+    <label for="checkbox"></label>
+    <input type="checkbox"> Mam rower
+    <label for="checkbox"></label>
+    <br>
+    <label for="checkbox"></label>
+    <input type="checkbox"> Mam samochód
+</form><br>
+Data urodzenia:
+<br>
+<form>
+<label for="date"></label>
+<input type="date">
+</form>
+<br>
+<br>
+<form>
+<input type="submit" value="Wyślij">
+ <input type="submit" value="Resetuj">
+</form>
+</fieldset>
+</body>
+</html>
