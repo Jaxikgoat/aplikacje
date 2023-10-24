@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Formatowanie tekstu</title>
+    <style>
+        h1{
+        color: blue;
+        background-color: #ff00ff;
+        text-align: center;
+        text-decoration-line: underline overline;
+        text-decoration-color: yellow;
+        text-decoration-style: dotted ;
+        text-transform: uppercase;
+        }
+        h2{
+            color:white;
+            text-shadow: 1px 1px black,
+                    0 0 25px blue,
+                     0 0 5px darkblue;
+        }
+        p{
+            text-indent: 40px;
+            letter-spacing: 5px;
+            line-height: 2;
+            word-spacing: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>To jest niebieski nagłówek</h1>
+    <p>4t2t2ty4y4t4t4t4t44g5g553y35y35y</p>
+    <p>t42y32h3rh3yh432h34hy35y43y</p>
+    <h2>gwg23h24h34h35h3</h2>
+</body>
+</html>
